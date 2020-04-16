@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  node:
+    image: belldata/node-qf:12-alpine
+    tty: true
+    container_name: example
+    volumes:
+      - ./:/app
+    ports:
+      - "19999:19999"

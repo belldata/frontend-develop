@@ -39,7 +39,7 @@ services:
 
 ## イメージへのログイン後はフロントエンド開発(割愛)
 
-- `quasar crete [project name]`
+- `quasar create [project name]`
 - `yarn install`
 
 ## 早見表

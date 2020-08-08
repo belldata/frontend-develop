@@ -15,6 +15,6 @@ RUN mkdir /app \
     && mv docker/* /usr/bin/ \
     && rm -rf /tmp/* /var/cache/apk/* docker-${DOCKER_CLIENT_VERSION}.tgz
 
-WORKDIR /app/frontend
+WORKDIR /app
 
 CMD [ "sh" ]
